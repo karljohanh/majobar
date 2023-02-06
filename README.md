@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Majo Bar & Kök
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website was created for the popular restaurant, Majo Bar & Kök, using React and Tailwind CSS. The goal of the website is to provide customers with an easy and accessible way to view the restaurant's menu, hours of operation, location, and other important information.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- View the restaurant's menu
+- Get information on the restaurant's hours of operation and location
+- Contact the restaurant directly through the website
+- View photos of the restaurant and its dishes
 
-### `npm start`
+## Tech
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The website was built using the following technologies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React: A JavaScript library for building user interfaces.
+Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
+Swiper.js: A modern slider library.
 
-### `npm test`
+## Running the project locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the project on your local machine, you'll need to have Node.js and npm (Node Package Manager) installed. Follow these steps:
 
-### `npm run build`
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the project dependencies: `npm install`
+4. Start the development server: `npm run start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The website should now be accessible in your browser at http://localhost:3000/.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Contributions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you're interested in contributing to the project, we'd love to have your help! Please open an issue or create a pull request with your proposed changes.
