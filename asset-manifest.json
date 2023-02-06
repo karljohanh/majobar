@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/majobar/static/css/main.b0621b59.css",
+    "main.js": "/majobar/static/js/main.c9a4ac47.js",
+    "static/media/Majo3.webp": "/majobar/static/media/Majo3.8b1661f671222f306acc.webp",
+    "static/media/Majo1.webp": "/majobar/static/media/Majo1.e7ae0fa5ada205802a51.webp",
+    "static/media/Majo13.webp": "/majobar/static/media/Majo13.ee5c6ad569fe82b17d82.webp",
+    "static/media/Majo7.webp": "/majobar/static/media/Majo7.86357cc1cdad7101ee71.webp",
+    "static/media/Majo5.webp": "/majobar/static/media/Majo5.c421edda3f2fe3fe21e8.webp",
+    "static/media/Majo9.webp": "/majobar/static/media/Majo9.57882b55ead748270bbe.webp",
+    "static/media/Majo17.webp": "/majobar/static/media/Majo17.3ecebdd996ecf620964e.webp",
+    "static/media/Majo19.webp": "/majobar/static/media/Majo19.db97cde1e20385d53d54.webp",
+    "static/media/Majo11.webp": "/majobar/static/media/Majo11.13cf1fcf83e82d04740b.webp",
+    "static/media/Majo12.webp": "/majobar/static/media/Majo12.8a3c26beb1470b31f506.webp",
+    "static/media/Majo18.webp": "/majobar/static/media/Majo18.b14ce82705c9fa9e2f31.webp",
+    "static/media/Majo14.webp": "/majobar/static/media/Majo14.94dad760e001b101eb5a.webp",
+    "static/media/Majo2.webp": "/majobar/static/media/Majo2.98bc0d9dc1e07a77bf3d.webp",
+    "static/media/Majo8.webp": "/majobar/static/media/Majo8.9f5d551f35ff20b23569.webp",
+    "static/media/Majo4.webp": "/majobar/static/media/Majo4.4551204e1af297c67454.webp",
+    "static/media/Majo20.webp": "/majobar/static/media/Majo20.b3be7ca928927eb29189.webp",
+    "static/media/Majo-background2.webp": "/majobar/static/media/Majo-background2.110acc618c80008c26cb.webp",
+    "static/media/bootstrap-icons.woff?": "/majobar/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/Majo6.webp": "/majobar/static/media/Majo6.b5602007c4fb27a8f873.webp",
+    "static/media/bootstrap-icons.woff2?": "/majobar/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "static/media/Majo10.webp": "/majobar/static/media/Majo10.94a5c5bed428f20e454c.webp",
+    "static/media/Majo16.webp": "/majobar/static/media/Majo16.007c093945b899c70541.webp",
+    "static/media/Majo21.webp": "/majobar/static/media/Majo21.35247fa4161ac96df03d.webp",
+    "static/media/Majo15.webp": "/majobar/static/media/Majo15.f76345382274cf57c4ac.webp",
+    "static/media/pst.png": "/majobar/static/media/pst.7400edf37f0ec1a3db05.png",
+    "static/media/majo-small-logo.png": "/majobar/static/media/majo-small-logo.31dac79faf7c924bf308.png",
+    "static/media/majo-logo.png": "/majobar/static/media/majo-logo.39f85ef9623f917a0539.png",
+    "index.html": "/majobar/index.html",
+    "main.b0621b59.css.map": "/majobar/static/css/main.b0621b59.css.map",
+    "main.c9a4ac47.js.map": "/majobar/static/js/main.c9a4ac47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0621b59.css",
+    "static/js/main.c9a4ac47.js"
+  ]
+}
