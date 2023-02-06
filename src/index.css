@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'League Gothic';
+    margin-bottom: 1rem;
+    letter-spacing: 0.3rem;
+  }
+  h2 {
+    font-size: 3rem;
+    font-weight: lighter;
+  }
+
+  .sub {
+    font-family: 'Sanchez';
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    margin-top: -1.5rem;
+  }
+
+  p {
+    font-family: Sanchez;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn {
+    border: 1px solid white;
+    padding: 0.75rem 1rem 0.75rem 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+  }
+  .btn:hover {
+    transition: 0.3s;
+    border: 1px solid #222222;
+    background-color: #222222;
+    color: white;
+  }
+
+  @media screen and (max-width: 1024px) {
+    h2 {
+      font-size: 2rem;
+      letter-spacing: 0.2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    .sub {
+      font-size: 0.7rem;
+    }
+  }
 }
