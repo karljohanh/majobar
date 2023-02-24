@@ -16,7 +16,7 @@ function Footer() {
           <p className="mb-0">Fredag 17:00 - 01:00</p>
           <p className="mb-0">Lördag 17:00 - 01:00</p>
         </div>
-        <div className="basis-1/3">
+        <div className="basis-1/3 lg:mt-0 mt-6">
           <h3 className="text-2xl">ADDRESS</h3>
           <p className="m-0">Polhemsgatan 6,</p>
           <p>46132 Trollhättan</p>
@@ -31,18 +31,18 @@ function Footer() {
       <div className="mb-12">
         <a href="https://www.instagram.com/majobar_thn/">
           <i
-            class="bi bi-instagram"
+            className="bi bi-instagram"
             style={{
-              'font-size': '2rem',
+              fontSize: '2rem',
               padding: '0.5rem',
             }}
           ></i>
         </a>
         <a href="https://www.facebook.com/MajoBarRestaurang/">
           <i
-            class="bi bi-facebook"
+            className="bi bi-facebook"
             style={{
-              'font-size': '2rem',
+              fontSize: '2rem',
               padding: '0.5rem',
             }}
           ></i>

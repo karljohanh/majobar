@@ -8,7 +8,7 @@ function FullScreenLanding() {
       <Nav />
       <div
         id="home"
-        class="h-screen bg-cover bg-bottom" // bg-center om majobild
+        className="h-screen bg-cover bg-bottom" // bg-center om majobild
         style={{
           backgroundImage: `url(${LandingImg})`,
           // backgroundSize: 'auto',
