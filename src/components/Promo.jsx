@@ -17,7 +17,7 @@ function Promo() {
       </p>
       <p>Bubbel & Plock 159:-</p>
 
-      <p>VARTM VÄLKOMMEN FREDAGAR MELLAN 17:00 - 19:00</p>
+      <p>VARMT VÄLKOMMEN FREDAGAR MELLAN 17:00 - 19:00</p>
     </div>
   );
 }

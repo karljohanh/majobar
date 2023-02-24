@@ -1,6 +1,6 @@
-# Majo Bar & Kök
+# Majo Bar & Restaurang
 
-This website was created for the popular restaurant, Majo Bar & Kök, using React and Tailwind CSS. The goal of the website is to provide customers with an easy and accessible way to view the restaurant's menu, hours of operation, location, and other important information.
+This website was created for the popular restaurant, Majo Bar & Restaurang, using React and Tailwind CSS. The goal of the website is to provide customers with an easy and accessible way to view the restaurant's menu, hours of operation, location, and other important information.
 
 ## Features
 
