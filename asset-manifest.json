@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/majobar/static/css/main.856166fc.css",
-    "main.js": "/majobar/static/js/main.04db0954.js",
+    "main.js": "/majobar/static/js/main.12815cfd.js",
     "static/media/Majo3.webp": "/majobar/static/media/Majo3.8b1661f671222f306acc.webp",
     "static/media/Majo1.webp": "/majobar/static/media/Majo1.e7ae0fa5ada205802a51.webp",
     "static/media/Majo13.webp": "/majobar/static/media/Majo13.ee5c6ad569fe82b17d82.webp",
@@ -31,10 +31,10 @@
     "static/media/majo-logo.png": "/majobar/static/media/majo-logo.39f85ef9623f917a0539.png",
     "index.html": "/majobar/index.html",
     "main.856166fc.css.map": "/majobar/static/css/main.856166fc.css.map",
-    "main.04db0954.js.map": "/majobar/static/js/main.04db0954.js.map"
+    "main.12815cfd.js.map": "/majobar/static/js/main.12815cfd.js.map"
   },
   "entrypoints": [
     "static/css/main.856166fc.css",
-    "static/js/main.04db0954.js"
+    "static/js/main.12815cfd.js"
   ]
 }
