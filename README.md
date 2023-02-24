@@ -1,6 +1,8 @@
 # Majo Bar & Restaurang
 
-This website was created for the popular restaurant, Majo Bar & Restaurang, using React and Tailwind CSS. The goal of the website is to provide customers with an easy and accessible way to view the restaurant's menu, hours of operation, location, and other important information.
+*This website will soon be published @ www.majobar.se. A preview could be seen [here](https://johanhermansson.dev/majobar).*
+
+This website was created for the restaurant Majo Bar & Restaurang, using React and Tailwind CSS. The goal of the website is to provide customers with an easy and accessible way to view the restaurant's menu, hours of operation, location, and other important information.
 
 ## Features
 
@@ -13,21 +15,6 @@ This website was created for the popular restaurant, Majo Bar & Restaurang, usin
 
 The website was built using the following technologies:
 
-React: A JavaScript library for building user interfaces.
-Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
-Swiper.js: A modern slider library.
-
-## Running the project locally
-
-To run the project on your local machine, you'll need to have Node.js and npm (Node Package Manager) installed. Follow these steps:
-
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Install the project dependencies: `npm install`
-4. Start the development server: `npm run start`
-
-The website should now be accessible in your browser at http://localhost:3000/.
-
-### Contributions
-
-If you're interested in contributing to the project, we'd love to have your help! Please open an issue or create a pull request with your proposed changes.
+- React: A JavaScript library for building user interfaces.
+- Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
+- As well as other librares, such as swiper.js and framer motion.
