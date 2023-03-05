@@ -20,15 +20,14 @@ function FullScreenLanding() {
             alt="Logo"
             className="h-auto w-[50rem] max-w-[85%] object-contain"
           />
-          <button className="btn mt-16">
-            <a
-              href="https://module.lafourchette.com/sv_SE/module/205489-b3c08#/1373567/dhp"
-              target="_blank"
-              rel="noreferrer"
-            >
-              BOKA BORD
-            </a>
-          </button>
+
+          <a
+            href="https://module.lafourchette.com/sv_SE/module/205489-b3c08#/1373567/dhp"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="btn mt-16">BOKA BORD</button>
+          </a>
         </div>
       </div>
     </>

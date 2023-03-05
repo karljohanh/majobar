@@ -59,6 +59,16 @@ export default function Nav() {
           KONTAKT
         </a>
       </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="white"
+        className="p-1 font-bold"
+      >
+        <a href="#contact" className="flex items-center">
+          PARTNERS
+        </a>
+      </Typography>
     </ul>
   );
 

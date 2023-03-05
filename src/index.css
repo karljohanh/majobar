@@ -35,6 +35,10 @@
     margin-bottom: 1.5rem;
   }
 
+  span {
+    font-family: Sanchez;
+  }
+
   .btn {
     border: 1px solid white;
     padding: 0.75rem 1rem 0.75rem 1rem;

@@ -19,7 +19,7 @@ function Menu() {
     if (isOpen)
       setTimeout(() => {
         setIsOpen(!isOpen);
-      }, 800);
+      }, 950);
     else setIsOpen(!isOpen);
   }
 
@@ -31,30 +31,34 @@ function Menu() {
   }
 
   return (
-    <div id="menu" className="flex flex-col items-center my-12">
+    <div
+      id="menu"
+      className="flex flex-col items-center my-12 sm:w-[80vw] mx-auto"
+    >
       <h2>MENY</h2>
-      <div className="lg:flex justify-center gap-10 lg:px-60 px-10">
+
+      <div className="lg:flex justify-center gap-20 lg:px-50 px-8">
         <ul className="flex-1">
           <h3 className="text-center text-2xl tracking-wider">Chark & Sånt</h3>
           {chark.map((item, index) => (
-            <li key={index} className="border-b-2 border-black">
+            <li key={index} className="border-b-2 border-black min-h-[5rem]">
               <p className="m-0 mt-5 tracking-widest">{item.name}</p>
-              <p className="mb-5 text-base">
-                {item.description}
-                <span className="float-right">{item.price}</span>
-              </p>
+              <div className="flex justify-between gap-2">
+                <p className="mb-5 text-base">{item.description}</p>
+                <span>{item.price}</span>
+              </div>
             </li>
           ))}
           <h3 className="text-center text-2xl tracking-wider mt-6">
             Kalla Tapas
           </h3>
           {kallatapas.map((item, index) => (
-            <li key={index} className="border-b-2 border-black">
+            <li key={index} className="border-b-2 border-black min-h-[5rem]">
               <p className="m-0 mt-5 tracking-widest">{item.name}</p>
-              <p className="mb-5 text-base">
-                {item.description}
-                <span className="float-right">{item.price}</span>
-              </p>
+              <div className="flex justify-between gap-2">
+                <p className="mb-5 text-base">{item.description}</p>
+                <span>{item.price}</span>
+              </div>
             </li>
           ))}
         </ul>
@@ -63,12 +67,12 @@ function Menu() {
             Varma Tapas
           </h3>
           {varmatapas.map((item, index) => (
-            <li key={index} className="border-b-2 border-black">
+            <li key={index} className="border-b-2 border-black min-h-[5rem]">
               <p className="m-0 mt-5 tracking-widest">{item.name}</p>
-              <p className="mb-5 text-base">
-                {item.description}
-                <span className="float-right">{item.price}</span>
-              </p>
+              <div className="flex justify-between gap-2">
+                <p className="mb-5 text-base">{item.description}</p>
+                <span>{item.price}</span>
+              </div>
             </li>
           ))}
         </ul>
@@ -76,7 +80,7 @@ function Menu() {
 
       <AnimatePresence initial={false}>
         {isOpen && (
-          <motion.section
+          <motion.div
             key="content"
             initial="collapsed"
             animate="open"
@@ -86,87 +90,103 @@ function Menu() {
               collapsed: { opacity: 0, height: 0 },
             }}
             transition={{ duration: 0.8, ease: [0.4, 0.62, 0.23, 0.98] }}
-            className="w-[100%] sm:mt-0 mt-6"
+            className="lg:flex justify-center gap-20 lg:px-50 px-8 mt-0 sm:mt-6 w-[100%]"
           >
-            <div className="lg:flex justify-center gap-10 lg:px-60 px-10 mt-0 sm:mt-6">
-              <ul className="flex-1">
-                <h3 className="text-center text-2xl tracking-wider">
-                  Desserter
-                </h3>
-                {desserter.map((item, index) => (
-                  <li key={index} className="border-b-2 border-black">
-                    <p className="m-0 mt-5 tracking-widest">{item.name}</p>
-                    <p className="mb-5 text-base">
-                      {item.description}
-                      <span className="float-right">{item.price}</span>
-                    </p>
-                  </li>
-                ))}
+            <ul className="flex-1">
+              <h3 className="text-center text-2xl tracking-wider mt-6 lg:mt-0">
+                Desserter
+              </h3>
+              {desserter.map((item, index) => (
+                <li
+                  key={index}
+                  className="border-b-2 border-black min-h-[5rem]"
+                >
+                  <p className="m-0 mt-5 tracking-widest">{item.name}</p>
+                  <div className="flex justify-between gap-2">
+                    <p className="mb-5 text-base">{item.description}</p>
+                    <span>{item.price}</span>
+                  </div>
+                </li>
+              ))}
 
-                <h3 className="text-center text-2xl tracking-wider mt-6">
-                  Bubbel
-                </h3>
-                {bubbel.map((item, index) => (
-                  <li key={index} className="border-b-2 border-black">
-                    <p className="m-0 mt-5 tracking-widest">{item.name}</p>
-                    <p className="mb-5 text-base">
-                      {item.description}
-                      <span className="float-right">{item.price}</span>
-                    </p>
-                  </li>
-                ))}
-                <h3 className="text-center text-2xl tracking-wider mt-6">Öl</h3>
-                {beer.map((item, index) => (
-                  <li key={index} className="border-b-2 border-black">
-                    <p className="m-0 mt-5 tracking-widest">{item.name}</p>
-                    <p className="mb-5 text-base">
-                      {item.description}
-                      <span className="float-right">{item.price}</span>
-                    </p>
-                  </li>
-                ))}
-              </ul>
-              <ul className="flex-1">
-                <h3 className="text-center text-2xl tracking-wider mt-6">
-                  Rinnande Desserter
-                </h3>
-                {rinnandedesserter.map((item, index) => (
-                  <li key={index} className="border-b-2 border-black">
-                    <p className="m-0 mt-5 tracking-widest">{item.name}</p>
-                    <p className="mb-5 text-base">
-                      {item.description}
-                      <span className="float-right">{item.price}</span>
-                    </p>
-                  </li>
-                ))}
+              <h3 className="text-center text-2xl tracking-wider mt-6">
+                Bubbel
+              </h3>
+              {bubbel.map((item, index) => (
+                <li
+                  key={index}
+                  className="border-b-2 border-black min-h-[5rem]"
+                >
+                  <p className="m-0 mt-5 tracking-widest">{item.name}</p>
+                  <div className="flex justify-between gap-2">
+                    <p className="mb-5 text-base">{item.description}</p>
+                    <span>{item.price}</span>
+                  </div>
+                </li>
+              ))}
+              <h3 className="text-center text-2xl tracking-wider mt-6">Öl</h3>
+              {beer.map((item, index) => (
+                <li
+                  key={index}
+                  className="border-b-2 border-black min-h-[5rem]"
+                >
+                  <p className="m-0 mt-5 tracking-widest">{item.name}</p>
+                  <div className="flex justify-between gap-2">
+                    <p className="mb-5 text-base">{item.description}</p>
+                    <span>{item.price}</span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+            <ul className="flex-1">
+              <h3 className="text-center text-2xl tracking-wider mt-6 lg:mt-0">
+                Rinnande Desserter
+              </h3>
+              {rinnandedesserter.map((item, index) => (
+                <li
+                  key={index}
+                  className="border-b-2 border-black min-h-[5rem]"
+                >
+                  <p className="m-0 mt-5 tracking-widest">{item.name}</p>
+                  <div className="flex justify-between gap-2">
+                    <p className="mb-5 text-base">{item.description}</p>
+                    <span>{item.price}</span>
+                  </div>
+                </li>
+              ))}
 
-                <h3 className="text-center text-2xl tracking-wider mt-6">
-                  Rödvin
-                </h3>
-                {redwine.map((item, index) => (
-                  <li key={index} className="border-b-2 border-black">
-                    <p className="m-0 mt-5 tracking-widest">{item.name}</p>
-                    <p className="mb-5 text-base">
-                      {item.description}
-                      <span className="float-right">{item.price}</span>
-                    </p>
-                  </li>
-                ))}
-                <h3 className="text-center text-2xl tracking-wider mt-6">
-                  Vitt & Rosé
-                </h3>
-                {whiterose.map((item, index) => (
-                  <li key={index} className="border-b-2 border-black">
-                    <p className="m-0 mt-5 tracking-widest">{item.name}</p>
-                    <p className="mb-5 text-base">
-                      {item.description}
-                      <span className="float-right">{item.price}</span>
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </motion.section>
+              <h3 className="text-center text-2xl tracking-wider mt-6">
+                Rödvin
+              </h3>
+              {redwine.map((item, index) => (
+                <li
+                  key={index}
+                  className="border-b-2 border-black min-h-[5rem]"
+                >
+                  <p className="m-0 mt-5 tracking-widest">{item.name}</p>
+                  <div className="flex justify-between gap-2">
+                    <p className="mb-5 text-base">{item.description}</p>
+                    <span>{item.price}</span>
+                  </div>
+                </li>
+              ))}
+              <h3 className="text-center text-2xl tracking-wider mt-6">
+                Vitt & Rosé
+              </h3>
+              {whiterose.map((item, index) => (
+                <li
+                  key={index}
+                  className="border-b-2 border-black min-h-[5rem]"
+                >
+                  <p className="m-0 mt-5 tracking-widest">{item.name}</p>
+                  <div className="flex justify-between gap-2">
+                    <p className="mb-5 text-base">{item.description}</p>
+                    <span>{item.price}</span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </motion.div>
         )}
       </AnimatePresence>
       <motion.div

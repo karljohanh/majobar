@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <main className="max-w-screen">
       <FullScreenLanding />
       <InfoSection />
       <Carousel />
@@ -16,7 +16,7 @@ function App() {
       <FullWidthImg />
       <Promo />
       <Footer />
-    </>
+    </main>
   );
 }
 
