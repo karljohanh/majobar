@@ -4,6 +4,8 @@ import pst from '../images/pst.png';
 import Map from './Map';
 
 function Footer() {
+  const location = window.location.href;
+
   return (
     <footer
       id="contact"
@@ -64,7 +66,7 @@ function Footer() {
           ></i>
         </a>
       </div>
-      <Map />
+      {location.includes('majobar') && <Map />}
     </footer>
   );
 }
