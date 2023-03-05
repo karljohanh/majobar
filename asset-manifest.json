@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/majobar/static/css/main.b1047552.css",
-    "main.js": "/majobar/static/js/main.0e628c42.js",
+    "main.css": "/majobar/static/css/main.6909df22.css",
+    "main.js": "/majobar/static/js/main.6ea1b3e0.js",
     "static/media/Majo3.webp": "/majobar/static/media/Majo3.8b1661f671222f306acc.webp",
     "static/media/Majo1.webp": "/majobar/static/media/Majo1.e7ae0fa5ada205802a51.webp",
     "static/media/Majo13.webp": "/majobar/static/media/Majo13.ee5c6ad569fe82b17d82.webp",
@@ -30,11 +30,11 @@
     "static/media/majo-small-logo.png": "/majobar/static/media/majo-small-logo.31dac79faf7c924bf308.png",
     "static/media/majo-logo.png": "/majobar/static/media/majo-logo.39f85ef9623f917a0539.png",
     "index.html": "/majobar/index.html",
-    "main.b1047552.css.map": "/majobar/static/css/main.b1047552.css.map",
-    "main.0e628c42.js.map": "/majobar/static/js/main.0e628c42.js.map"
+    "main.6909df22.css.map": "/majobar/static/css/main.6909df22.css.map",
+    "main.6ea1b3e0.js.map": "/majobar/static/js/main.6ea1b3e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1047552.css",
-    "static/js/main.0e628c42.js"
+    "static/css/main.6909df22.css",
+    "static/js/main.6ea1b3e0.js"
   ]
 }
