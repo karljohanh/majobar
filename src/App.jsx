@@ -5,10 +5,12 @@ import Promo from './components/Promo';
 import Menu from './components/Menu';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
+import Nav from './components/Navbar';
 
 function App() {
   return (
     <main className="max-w-screen">
+      <Nav />
       <FullScreenLanding />
       <InfoSection />
       <Carousel />

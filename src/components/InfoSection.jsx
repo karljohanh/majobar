@@ -1,6 +1,6 @@
 export default function InfoSection() {
   return (
-    <div className="min-w-[70%] text-center flex flex-col lg:w-[50%] mx-auto justify-center items-center my-12">
+    <div className="min-w-[70%] text-center flex flex-col lg:w-[50%] max-w-[80vw] sm:max-w-[70vw] mx-auto justify-center items-center my-12">
       <h2 className="tracking-[0.1rem] lg:tracking-[0.3rem]">
         MAJO BAR LIGGER I HJÄRTAT AV TROLLHÄTTAN
       </h2>

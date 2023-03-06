@@ -16,11 +16,11 @@ function Menu() {
   const [isOpen, setIsOpen] = useState(false);
 
   function openClose() {
-    if (isOpen)
+    if (isOpen) {
       setTimeout(() => {
         setIsOpen(!isOpen);
       }, 950);
-    else setIsOpen(!isOpen);
+    } else setIsOpen(!isOpen);
   }
 
   function scrolltoId() {
@@ -189,7 +189,7 @@ function Menu() {
           </motion.div>
         )}
       </AnimatePresence>
-      <motion.div
+      <motion.button
         initial={false}
         onClick={() => {
           scrolltoId();
@@ -198,7 +198,7 @@ function Menu() {
         className="btn border border-black mt-12"
       >
         {!isOpen ? 'VISA DESSERTER & DRYCK' : 'DÖLJ DESSERTER & DRYCK'}
-      </motion.div>
+      </motion.button>
     </div>
   );
 }
