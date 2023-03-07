@@ -33,7 +33,7 @@ function Promo() {
           >
             Boka online
           </a>{' '}
-          för att ta del av erbjudanted!
+          för att ta del av erbjudandet!
         </p>
 
         <p>En Tapas 55:-</p>

@@ -2,7 +2,7 @@
   "name": "majobar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://karljohanh.github.io/majobar",
+  "homepage": ".",
   "dependencies": {
     "@material-tailwind/react": "^1.2.5",
     "@react-google-maps/api": "^2.18.1",

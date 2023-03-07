@@ -11,9 +11,6 @@ function Footer() {
       id="contact"
       className="bg-[#323232] flex flex-col items-center text-white text-center"
     >
-      <h2 className="mt-12 px-4">
-        HITTA HIT, KONTAKTUPPGIFTER OCH VÅRA PARTNERS
-      </h2>
       <div className="container flex lg:flex-row flex-col justify-between my-12">
         <div className="basis-1/4">
           <h3 className="text-2xl mb-0">ÖPPETTIDER</h3>
